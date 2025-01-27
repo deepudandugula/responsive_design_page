@@ -1,0 +1,163 @@
+@import url("https://fonts.googleapis.com/css2?family=Bree+Serif&family=Caveat:wght@400;700&family=Lobster&family=Monoton&family=Open+Sans:ital,wght@0,400;0,700;1,400;1,700&family=Playfair+Display+SC:ital,wght@0,400;0,700;1,700&family=Playfair+Display:ital,wght@0,400;0,700;1,700&family=Roboto:ital,wght@0,400;0,700;1,400;1,700&family=Source+Sans+Pro:ital,wght@0,400;0,700;1,700&family=Work+Sans:ital,wght@0,400;0,700;1,700&display=swap");
+
+* {
+    box-sizing: border-box;
+}
+
+body {
+    margin: 0px;
+}
+
+.bg-container {
+    height: 200vh;
+    width: 100vw;
+    background-size: cover;
+    display: flex;
+    flex-direction: column;
+}
+
+.img {
+    height: 70px;
+    width: 70px;
+    background-size: cover;
+
+}
+
+.container-1 {
+    background-image: url("https://assets.ccbp.in/frontend/intermediate-rwd/design-section-sm-bg.png");
+    height: 55vh;
+    width: 100vw;
+    background-size: cover;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.container-2 {
+    background-color: #12022f;
+    height: 145vh;
+    width: 100vw;
+    background-size: cover;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    padding: 15px;
+}
+
+.head {
+    color: white;
+    font-size: 21px;
+    font-family: "Roboto";
+    font-weight: normal;
+}
+
+.card {
+    background-color: white;
+    height: 85%;
+    width: 90vw;
+    background-size: cover;
+    border-radius: 10px;
+}
+
+.card-cont {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    padding: 10px;
+}
+
+.icon {
+    height: 55px;
+    width: 55px;
+    background-size: cover;
+    padding-right: 10px;
+}
+
+.i-head {
+    color: #12022f;
+    font-size: 15px;
+    font-family: "Roboto";
+    font-weight: bold;
+}
+
+.i-para {
+    color: #7b8794;
+    font-size: 15px;
+    font-family: "Roboto";
+    font-weight: normal;
+}
+
+@media (width >=768px) {
+    .bg-container {
+        height: 100vh;
+        width: 100vw;
+        background-size: cover;
+        display: flex;
+        flex-direction: row;
+    }
+
+    .container-1 {
+        background-image: url("https://assets.ccbp.in/frontend/intermediate-rwd/design-section-sm-bg.png");
+        height: 100vh;
+        width: 45vw;
+        background-size: cover;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+    }
+
+    .container-2 {
+        background-color: #12022f;
+        height: 100vh;
+        width: 55vw;
+        background-size: cover;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        padding: 15px;
+    }
+
+    .card {
+        background-color: white;
+        height: 55%;
+        width: 50vw;
+        background-size: cover;
+        border-radius: 15px;
+    }
+
+    .head {
+        color: white;
+        font-size: 35px;
+        font-family: "Roboto";
+        font-weight: normal;
+    }
+
+    .img {
+        height: 130px;
+        width: 130px;
+        background-size: cover;
+    }
+
+    .icon {
+        height: 65px;
+        width: 65px;
+        background-size: cover;
+        padding-right: 10px;
+    }
+
+    .i-head {
+        color: #12022f;
+        font-size: 28px;
+        font-family: "Roboto";
+        font-weight: bolder;
+    }
+
+    .i-para {
+        color: #7b8794;
+        font-size: 20px;
+        font-family: "Roboto";
+        font-weight: normal;
+    }
+}
